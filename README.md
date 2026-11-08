@@ -2,11 +2,12 @@
 
 Airlines and airports still send each other short text messages over airline networks that began in the teletype era. These are called Type B messages. One of them tells a partner that a flight now leaves at a different time. Another says that a plane has just taken off. This library reads those messages and gives back the same simple result every time: the flight, the days it runs, the aircraft and the times.
 
-It is a learning project written in Go. It is small and tested with invented messages. Supporting a new kind of message means adding a file.
+It is a proof of concept written in Go. It is small and tested with invented messages. Supporting a new kind of message means adding a file.
 
-## About this project
-
-This is an experiment, made for research and out of curiosity about how airline distribution works. It is not prepared for production use, and it should not be used with real bookings, fares or traffic.
+> [!IMPORTANT]
+> This is a proof of concept, made for research and out of curiosity about how airline
+> distribution works. It is not prepared for production use, and it should not be used
+> with real bookings, fares or traffic.
 
 ## Words used here
 
